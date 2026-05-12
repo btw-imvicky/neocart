@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeoCart</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+
+  <h1>NeoCart</h1>
+
+  <button id="dark-mode-toggle">
+    🌙
+  </button>
+
+  <div class="cart" id="cart-btn">
+    🛒 Cart: <span id="cart-count">0</span>
+  </div>
+
+  </nav>
+
+  <!-- Cart Sidebar -->
+<div class="cart-sidebar" id="cart-sidebar">
+
+  <div class="cart-header">
+
+     <h2>Your Cart</h2>
+
+     <button id="close-cart">X</button>
+
+  </div>
+
+  <div id="cart-items"></div>
+
+  <h3>Total: $<span id="cart-total">0</span></h3>
+
+</div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Welcome to NeoCart</h2>
+    <p>Best products at affordable prices</p>
+  </section>
+
+  <!-- Search Bar -->
+
+<div class="search-box">
+
+  <input
+    type="text"
+    id="search-input"
+    placeholder="Search products..."
+  >
+
+</div>
+
+  <!-- Product Section -->
+  <section class="products">
+
+    <div class="product-card product">
+      <img src="https://picsum.photos/200" alt="Product">
+
+      <h3>Headphones</h3>
+
+      <p>$49</p>
+
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card product">
+      <img src="https://picsum.photos/201" alt="Product">
+
+      <h3>Shoes</h3>
+
+      <p>$79</p>
+
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card product">
+      <img src="https://picsum.photos/202" alt="Product">
+
+      <h3>Watch</h3>
+
+      <p>$99</p>
+
+      <button>Add to Cart</button>
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
